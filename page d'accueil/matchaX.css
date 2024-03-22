@@ -18,16 +18,16 @@ body{
   position: relative;
 }
 
-.wrapper .sidebar{
+.wrapper .sidebar {
   width: 200px;
   height: 100%;
-  background: #035f00;
+  background: #ffffff; 
   padding: 30px 0px;
   position: fixed;
 }
 
 .wrapper .sidebar h2{
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
@@ -41,7 +41,7 @@ body{
 }    
 
 .wrapper .sidebar ul li a{
-  color: #bdb8d7;
+  color: #000000;
   display: block;
 }
 
@@ -68,12 +68,12 @@ body{
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #006923;
+  background: #000000;
   height: 40px;
   line-height: 45px;
   text-align: center;
   margin: 0 5px;
-  color: #bdb8d7;
+  color: #fafafa;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -281,4 +281,18 @@ footer h3, footer p {
 .wrapper .sidebar {
   width: 150px; /* Réduit la largeur de la sidebar */
 }
+
+.right-image {
+  float: right; /* Positionne l'image à droite */
+  width: 100px; /* Réduit la largeur de l'image */
+  height: auto; /* Ajuste la hauteur automatiquement pour maintenir les proportions */
+}
+
+.img{
+  float: right; /* Aligne l'image à droite */
+    margin-left: 10px; /* Ajoute un espacement à gauche de l'image */
+    height: 80px; /* Ajuste la hauteur de l'image */
+    width: auto; /* Permet à la largeur de s'adapter automatiquement pour conserver les proportions */
+}
+
 
