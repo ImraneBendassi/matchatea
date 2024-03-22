@@ -295,4 +295,12 @@ footer h3, footer p {
     width: auto; /* Permet à la largeur de s'adapter automatiquement pour conserver les proportions */
 }
 
+.wrapper .sidebar {
+  width: 200px;
+  height: 100vh; /* Ajuste la hauteur pour remplir la barre */
+  background: #ffffff; 
+  padding: 30px 0px;
+  position: fixed;
+}
+
 
