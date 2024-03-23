@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+header {
+  position: fixed; /* Fixe le header en haut de la page */
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  z-index: 1000; /* Pour que le header soit au dessus de tout */
+}
+
+.container {
+  max-width: 1170px; /* Largeur maximale du container */
+  margin: auto;
+  overflow: hidden;
+  padding: 0 15px; /* Padding droit et gauche */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    main                                    */
+/* -------------------------------------------------------------------------- */
+main {
+  padding-top: 70px; /* Pour que le contenu ne soit pas caché par le header */
+  position: relative;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                side bar menu                               */
+/* -------------------------------------------------------------------------- */
+.sidebar {
+  position: fixed;
+  top: 50px; /* Pour que le menu ne soit pas caché par le header */
+  left: 0;
+  width: 120px; /* Largeur du sidebar menu */
+  height: 100%;
+  background-color: #edede9;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.sidebar__nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.sidebar__list {
+  /* Hauteur du menu - prend la haute de l'ecran */
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto 0;
+  list-style: none;
+}
+
+.sidebar__link {
+  display: flex;
+  transform: rotate(-90deg); /* Rotation du texte  */
+
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Content                                   */
+/* -------------------------------------------------------------------------- */
+
+.content {
+  margin-left: 120px; /* Pour que le contenu ne soit pas caché par le sidebar */
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.grid__item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid__img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.grid__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+}
