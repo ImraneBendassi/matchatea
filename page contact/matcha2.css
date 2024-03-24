@@ -409,9 +409,9 @@ header {
 
 .form {
   position: fixed;
-  top: 40%;
-  right: 10px; /* Ajuste la position vers la gauche */
-  transform: translateY(-50%);
+  top: 50%; /* Place le formulaire au milieu de la page verticalement */
+  left: 50%; /* Place le formulaire au milieu de la page horizontalement */
+  transform: translate(-50%, -50%); /* Recentre le formulaire */
   display: flex;
   flex-direction: column;
   gap: 10px;
