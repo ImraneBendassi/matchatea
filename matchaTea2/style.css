@@ -129,3 +129,42 @@ main {
   font-weight: 600;
   margin: 10px 0;
 }
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: #ffffff;
+  padding: 60px 10%;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer-col{
+  width: 25%;
+}
+
+.footer-col h4{
+  position: relative;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #5e5e5e;
+  text-transform: capitalize;
+}
+
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background-color: #27c0ac;
+  height: 2px;
+  width: 40px;
+}
+
