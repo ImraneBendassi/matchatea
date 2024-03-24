@@ -24,34 +24,6 @@ body{
   }
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-.footer-section {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.footer-section:last-child {
-  margin-right: 0;
-}
-
-.footer-bottom {
-  text-align: center;
-  padding: 10px 0;
-  border-top: 1px solid #fff;
-}
-
 @media (max-width: 768px) {
   .footer-content {
       flex-direction: column;
@@ -167,45 +139,6 @@ ul li a:hover{
   }
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Assurez-vous que le conteneur principal prend toute la hauteur de la fenêtre */
-}
-
-footer {
-  margin-top: auto; /* Pousse le footer vers le bas */
-}
-
-footer h3, footer p {
-  text-indent: 10px; /* Décale le texte de 10px vers la droite */
-}
-
-.wrapper .sidebar {
-  width: 150px; /* Réduit la largeur de la sidebar */
-}
-
-.right-image {
-  float: right; /* Positionne l'image à droite */
-  width: 100px; /* Réduit la largeur de l'image */
-  height: auto; /* Ajuste la hauteur automatiquement pour maintenir les proportions */
-}
-
-.img{
-  float: right; /* Aligne l'image à droite */
-    margin-left: 10px; /* Ajoute un espacement à gauche de l'image */
-    height: 80px; /* Ajuste la hauteur de l'image */
-    width: auto; /* Permet à la largeur de s'adapter automatiquement pour conserver les proportions */
-}
-
-.wrapper .sidebar {
-  width: 200px;
-  height: 100vh; /* Ajuste la hauteur pour remplir la barre */
-  background: #ffffff; 
-  padding: 30px 0px;
-  position: fixed;
-}
-
 .footer-col {
   display: flex;
   flex-direction: column;
@@ -272,5 +205,15 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Ajoutez cette règle CSS */
+.not-clickable {
+  color: black; /* Couleur du texte en noir */
+  pointer-events: none; /* Désactive les événements de pointer (rend le lien non cliquable) */
+}
+
+/* Ajoutez vos autres règles CSS ici */
+
+
 
 
