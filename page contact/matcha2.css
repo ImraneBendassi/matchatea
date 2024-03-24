@@ -13,11 +13,6 @@ body{
    background-color: #f3f5f9;
 }
 
-.wrapper{
-  display: flex;
-  position: relative;
-}
-
 @media (max-height: 500px){
   .social_media{
     display: none !important;
@@ -153,8 +148,8 @@ ul li a:hover{
   left: 0;
   width: 120px; /* Largeur du sidebar menu */
   height: 100%;
-  background-color: #ffffff;
-  color: #fff;
+  background-color: #a8a8a8;
+  color: #a8a8a8;
   transition: 0.3s;
 }
 
@@ -424,4 +419,4 @@ header {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-}  
+}
