@@ -153,8 +153,8 @@ ul li a:hover{
   left: 0;
   width: 120px; /* Largeur du sidebar menu */
   height: 100%;
-  background-color: #ffffff;
-  color: #fff;
+  background-color: #6e6e6e;
+  color: #6e6e6e;
   transition: 0.3s;
 }
 
