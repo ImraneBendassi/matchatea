@@ -1,0 +1,120 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Style de base pour le header */
+header {
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    display: flex; /* Affichage en ligne (éléments alignés horizontalement) */
+    justify-content: space-between; /* Alignement des éléments sur les extrémités */
+    align-items: center; /* Alignement vertical au centre */
+}
+
+/* Style pour les liens dans le header */
+header a {
+    color: #fff; /* Couleur du texte des liens */
+    text-decoration: none; /* Suppression du soulignement des liens */
+}
+
+/* Style pour la liste de navigation dans le header */
+nav ul {
+    list-style: none; /* Suppression des puces de liste */
+    margin: 0; /* Annulation des marges par défaut */
+    padding: 0; /* Annulation du remplissage par défaut */
+    display: flex; /* Affichage en ligne (éléments alignés horizontalement) */
+}
+
+/* Style pour chaque élément de la liste de navigation */
+nav ul li {
+    margin-right: 20px; /* Marge à droite entre chaque élément */
+}
+
+/* Styles généraux */
+body {
+    background-color: gray;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.description-box {
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo{
+    margin: 20px;
+    width: 200px;
+}
+
+/* Styles pour les titres */
+.title, .description {
+    padding: 10px;
+    color: #006633;
+}
+
+.title{
+    padding: 20px;
+}
+
+.description{
+    padding: 10px;
+}
+
+/* Style pour le contenu */
+.text {
+    margin-bottom: 20px;
+}
+
+/* Style pour la mosaïque */
+.mosaique {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.mosaique h2{
+    padding: 5px;
+}
+
+.produit {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.produit img {
+    max-width: 180px;
+    height: 180px;
+}
+
+.mosaique p{
+    margin: 10px;
+}
+
+.prix{
+    color: red;
+}
+
+.ajt-panier{
+    background-color: blue;
+}
+
+.ajt-panier:active{
+    color: red;
+}
+
+footer{
+    margin: 40px;
+}
